@@ -10,6 +10,7 @@ An Arduino based Open Source Weather Station which is connected to Openweatherma
 
 # Requirements
   - Any shield-compatible arduino-compatible board with 32kb flash
+  - The DHT-libary from https://github.com/markruys/arduino-DHT
   - Ethernet sheield (or WiFi shield WIP)
   - DHT11 or DHT22 Temperature sensor
   - Plasic enclosure
