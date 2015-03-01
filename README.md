@@ -22,6 +22,6 @@ An Arduino based Open Source Weather Station which is connected to Openweatherma
   - Adding a UV-Index sensor with brightness sensor (maybe Adafruit SI1145)
   - porting the whole API
   - Pictures :D
-  - Cleaning up the code
+  - ~~Cleaning up the code~~
   - Creating a WiFi fork
   - Creating a logging-to-SD fork
