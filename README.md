@@ -1,6 +1,8 @@
 # OpenWeatherDuino
 Openweathermap + Arduino = OpenWeatherDuino: <br>
-An Arduino based standalone Open Source Weather Station which is connected to Openweathermap.org
+An Arduino based standalone Open Source Weather Station which is connected to Openweathermap.org.<br>
+This is an very early Version, but it works quite fine and is stable. If you find any bugs, please report them at https://github.com/Benjamin3992/OpenWeatherDuino/issues .<br>
+More features will be added in near future, so make sure to check back soon.
 
 # Features
   - Transfering Temperature, Humidity and Location (More will be added soon) via the Openweathermap-API 
