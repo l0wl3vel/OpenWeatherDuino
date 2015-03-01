@@ -1,5 +1,5 @@
 # OpenWeatherDuino
-Openweathermap + Arduino = OpenWeatherDuino
+Openweathermap + Arduino = OpenWeatherDuino: <br>
 An Arduino based standalone Open Source Weather Station which is connected to Openweathermap.org
 
 # Features
