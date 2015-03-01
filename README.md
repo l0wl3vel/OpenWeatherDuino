@@ -4,8 +4,8 @@ An Arduino based Open Source Weather Station which is connected to Openweatherma
 # Features
   - Transfering Temperature, Humidity and Location (More will be added soon) via the Openweathermap-API 
   - Uses the inexpensive DHT11/DHT22 for Humidity and Temperature via the arduino-DHT by markruys
-  - Three Versions for Debugging only(Only Serial output no data will be sent), Testing (Serial debugging and data will be send) and Deploying (No Serial output)
-  - Only 20kb small
+  - Three Versions for ~~Debugging only(Only Serial output no data will be sent)~~, Testing (Serial debugging and data will be send) and Deploying (No Serial output)
+  - Only ~~20kb~~ 15kb small
   - Sends the data via Ethernet to the Openweathermap
 
 # Requirements
