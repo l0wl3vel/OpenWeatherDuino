@@ -9,12 +9,12 @@ More features will be added in near future, so make sure to check back soon.
   - Uses the inexpensive DHT11/DHT22 for Humidity and Temperature via the arduino-DHT by markruys
   - Three Versions for ~~Debugging only(Only Serial output no data will be sent)~~, Testing (Serial debugging and data will be send) and Deploying (No Serial output)
   - Only ~~20kb~~ 15kb small
-  - Sends the data via Ethernet to the Openweathermap
+  - Sends the data via Ethernet (Wifi is WIP) to the Openweathermap
 
 # Requirements
   - Any shield-compatible arduino-compatible board with 32kb flash
   - The DHT-libary from https://github.com/markruys/arduino-DHT
-  - Ethernet sheield (or WiFi shield WIP)
+  - Ethernet shield (or WiFi shield WIP)
   - DHT11 or DHT22 Temperature sensor
   - Plastic enclosure
   - Powersupply for the Arduino
