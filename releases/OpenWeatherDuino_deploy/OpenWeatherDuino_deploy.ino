@@ -1,6 +1,6 @@
 /*
 OpenWeatherDuino by Benjamin Ritter
-Ver. 1.3
+Ver. 1.4
 Visit me at Github:
 https://github.com/Benjamin3992/OpenWeatherDuino
 */
@@ -14,12 +14,11 @@ https://github.com/Benjamin3992/OpenWeatherDuino
 #define server "www.openweathermap.org"  //Do not change!
 #define CredBase64 ""  //Enter here the BASE64 encoded Credentials in the form <Username>:<Password>
 #define DhtPin 3  //DHT Temperature and Humidity Sensor PIN goes here
-#define timeBetweenPush 10 //Time in minutes between two pushes goes here
+#define UploadCycle 10 //Time in minutes between two pushes goes here
 
 const String StationName = "OpenWeatherDuino1";  //Enter the Station Name how it will be displayed on Openweathermap.org
 const String lat = "10.0000000";  //Latitude goes here
 const String lng = "10.00000000";  //Longitude goes here
-//const String dew =;  //WIP!!!
 const String alt = "518";  //Enter your Altitude in meters
 
 
@@ -57,12 +56,12 @@ void loop() {
     client.print(lng);
     client.print("&alt=");
     client.print(alt);
-    //client.print("&dewpoint=");
-    //client.print(dew);
+    client.print("&dewpoint=");
+    client.print(t-((100-h)/5));
     client.print("&name=");
     client.print(StationName);
     client.println();
     client.stop();
-    delay(timeBetweenPush*60000);
+    delay(UploadCycle*60000);
   }
 }
