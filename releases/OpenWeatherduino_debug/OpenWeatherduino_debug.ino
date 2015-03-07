@@ -19,7 +19,7 @@ https://github.com/Benjamin3992/OpenWeatherDuino
 const String StationName = "OpenWeatherDuino1";  //Enter the Station Name how it will be displayed on Openweathermap.org
 const String lat = "10.0000000";  //Latitude goes here
 const String lng = "10.00000000";  //Longitude goes here
-const String alt = "518";  //Enter your Altitude in meters
+const String alt = "0";  //Enter your Altitude in meters
 
 
 byte mac[] = {0x46, 0x46, 0x46, 0x46, 0x46, 0x46};  //Enter a HEX-coded MAC-Adress here
@@ -63,13 +63,15 @@ void loop() {
     client.print(lng);
     client.print("&alt=");
     client.print(alt);
-    client.print("&dewpoint=");
-    client.print(t-((100-h)/5));
+    //client.print("&dewpoint="); //Not working
+    //client.print(t-((100-h)/5));
     client.print("&name=");
     client.print(StationName);
     client.println();
     client.stop();
-    delay(UploadCycle*60000);
+    for(int i=0; i>=UploadCycle*60; i++)  {
+      delay(1000);
+    }
   }
   else {
     Serial.println("connection failed");
