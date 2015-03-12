@@ -18,11 +18,11 @@ More features will be added in near future, so make sure to check back soon.
   - Plastic enclosure
   - Powersupply for the Arduino
 
--Ethernet version:
+- Ethernet version:
   - Any shield-compatible arduino-compatible board with 32kb flash
   - Ethernet shield
 
--Wifi version(WIP):
+- Wifi version(WIP):
   - Any Arduino with more than 16kb flash
   - ESP8266 WIFI Serial Module
 # ToDo
