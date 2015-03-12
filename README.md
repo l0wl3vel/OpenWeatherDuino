@@ -17,9 +17,11 @@ More features will be added in near future, so make sure to check back soon.
   - DHT11 or DHT22 temperature sensor
   - Plastic enclosure
   - Powersupply for the Arduino
+
 -Ethernet version:
   - Any shield-compatible arduino-compatible board with 32kb flash
   - Ethernet shield
+
 -Wifi version(WIP):
   - Any Arduino with more than 16kb flash
   - ESP8266 WIFI Serial Module
