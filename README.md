@@ -25,6 +25,7 @@ More features will be added in near future, so make sure to check back soon.
 - Wifi version(WIP):
   - Any Arduino with more than 16kb flash
   - ESP8266 WIFI Serial Module
+
 # ToDo
   - Adding more sensors
   - Wifi Module (ESP8266)
