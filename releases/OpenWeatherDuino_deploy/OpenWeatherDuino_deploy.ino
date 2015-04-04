@@ -12,7 +12,7 @@ https://github.com/Benjamin3992/OpenWeatherDuino
 #include <SFE_BMP180.h>
 #include <Wire.h>
 #define server "www.openweathermap.org" //Do not change!
-#define CredBase64 "QmVuamFtaW4zOTkyOnVuaWZlcnNlQDIyNTE5OTk=" //Enter here the BASE64 encoded Credentials in the form <Username>:<Password>
+#define CredBase64 "" //Enter here the BASE64 encoded Credentials in the form <Username>:<Password>
 #define DhtPin 2 //DHT Temperature and Humidity Sensor PIN goes here
 #define UploadCycle 1   //Time in minutes between two uploads goes here
 const String StationName = "OpenWeatherDuino1"; //Enter the Station Name how it will be displayed on Openweathermap.org
