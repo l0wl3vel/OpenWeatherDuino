@@ -7,8 +7,7 @@ More features will be added in near future, so make sure to check back soon.
 # Features
   - Transfering Temperature, Humidity and Location (More will be added soon) via the Openweathermap-API 
   - Uses the inexpensive DHT11/DHT22 for Humidity and Temperature via the arduino-DHT by markruys
-  - Two Versions for, Testing (Serial debugging and data will be send) and Deploying (No Serial output)
-  - Only ~~20kb~~ 15kb small
+  - Only 20kb small
   - Sends the data via Ethernet (Wifi is WIP) to the Openweathermap
 
 # Requirements
@@ -23,9 +22,6 @@ More features will be added in near future, so make sure to check back soon.
 
 - Ethernet version:
   - Arduino Ethernet shield
-
-- WiFi-Shield version:
-  - Arduino WiFi Shield
 
 - WiFi version(WIP):
   - ESP8266 WIFI Serial Module
