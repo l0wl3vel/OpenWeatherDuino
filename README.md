@@ -14,23 +14,24 @@ More features will be added in near future, so make sure to check back soon.
 - All Versions
   - The DHT-libary from https://github.com/markruys/arduino-DHT
   - The BMP180-libary from https://github.com/sparkfun/BMP180_Breakout
-  - Arduino Uno 
+  - Arduino with 32kb of flash or more
   - DHT11 or DHT22 temperature sensor
   - The BMP180 pressure sensor
   - Plastic enclosure
   - Powersupply for the Arduino
+  - TTL logic level shifter
 
 - Ethernet version:
   - Arduino Ethernet shield
 
-- WiFi version(WIP):
+- WiFi version(Nearly completed):
   - ESP8266 WIFI Serial Module
+  - 3.3v powersupply (I used a TI LM3940 at my 5v VCC of my Arduino)
 
 # ToDo
   - Adding more sensors
-  - Wifi Module (ESP8266)
+  - ~~Wifi Module (ESP8266)~~
   - Adding a UV-Index sensor with brightness sensor (maybe Adafruit SI1145)
   - porting the whole Openweathermap-API
   - Pictures
-  - ~~Cleaning up the code~~
   - Creating a logging-to-SD fork
