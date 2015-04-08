@@ -55,7 +55,7 @@ void loop() {
   packet += "&humidity=";
   packet += h;
   packet += "&pressure=";
-  packet += (int)p, 2;
+  packet += p, 2;
   packet += "&lat=";
   packet += lat;
   packet += "&long=";
