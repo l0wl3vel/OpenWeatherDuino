@@ -18,15 +18,15 @@ More features will be added in near future, so make sure to check back soon.
   - DHT11 or DHT22 temperature sensor
   - The BMP180 pressure sensor
   - Plastic enclosure
-  - Powersupply for the Arduino
+  - Power supply for the Arduino
   - TTL logic level shifter
 
 - Ethernet version:
   - Arduino Ethernet shield
 
-- WiFi version(Nearly completed):
+- WiFi version:
   - ESP8266 WIFI Serial Module
-  - 3.3v powersupply (I used a TI LM3940 at my 5v VCC of my Arduino)
+  - 3.3v power supply (I used a TI LM3940 at my 5v VCC of my Arduino)
 
 # ToDo
   - Adding more sensors
