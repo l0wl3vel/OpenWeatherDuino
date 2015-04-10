@@ -32,6 +32,7 @@ SoftwareSerial ESP8266(10, 11);
 //ESP8266-TX --> Arduino Pin 3
 
 void setup() {
+  pressure.begin();
   dht.setup(DhtPin);
   ESP8266.begin(9600);
   delay(1000);
@@ -73,8 +74,7 @@ void loop() {
     ESP8266.read(); //clear the incoming buffer
   }
   delay(100);
-
-  if (ESP8266.find("Error")) return; //we screwed up
+  
 
   //Build up POST request
   cmd = "POST /data/post HTTP/1.1\n";
