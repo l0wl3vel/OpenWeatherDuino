@@ -15,7 +15,7 @@ https://github.com/Benjamin3992/OpenWeatherDuino
 #define server "openweathermap.org" //Do not change!
 #define CredBase64 "" //Enter here the BASE64 encoded Credentials in the form <Username>:<Password>
 #define DhtPin 9 //DHT Temperature and Humidity Sensor PIN goes here
-#define UploadCycle 1   //Time in minutes between two uploads goes here
+#define UploadCycle 30   //Time in minutes between two uploads goes here (30 minutes is a good idea)
 #define SSID "Your Wifi SSID"
 #define password "Your Wifi password"
 
