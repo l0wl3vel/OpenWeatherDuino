@@ -79,10 +79,7 @@ void loop() {
     Serial.println(int(floor(log10(abs(h))) + lenT + lenP + StationName.length() + lat.length() + lng.length() + alt.length() + 47)); //Calculating the Length of the Data for the POST method
     Serial.println();
     Serial.print("temp=");
-    Serial.println(t, 2);
-    Serial.println(t, 1);
-    Serial.println(t, 0);
-    Serial.println(t);
+    Serial.print(t, 2);
     Serial.print("&humidity=");
     Serial.print(h);
     Serial.print("&pressure=");
