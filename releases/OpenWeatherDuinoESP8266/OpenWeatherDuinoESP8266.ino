@@ -36,11 +36,11 @@ void setup() {
   dht.setup(DhtPin);
   ESP8266.begin(9600);
   delay(1000);
-  connect2Wifi();
 }
 
 
 void loop() {
+  connect2Wifi();
   char status;
   double t, p;
   status = pressure.startTemperature();
