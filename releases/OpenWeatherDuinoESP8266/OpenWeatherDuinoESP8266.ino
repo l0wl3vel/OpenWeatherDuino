@@ -18,6 +18,7 @@ https://github.com/Benjamin3992/OpenWeatherDuino
 #define UploadCycle 30   //Time in minutes between two uploads goes here (30 minutes is a good idea)
 #define SSID "Your Wifi SSID"
 #define password "Your Wifi password"
+#define altitude 123 //Enter your Altitude in meters without decimals
 
 
 const String StationName = ""; //Enter the Station Name how it will be displayed on Openweathermap.org
@@ -42,13 +43,14 @@ void setup() {
 void loop() {
   connect2Wifi();
   char status;
-  double t, p;
+  double t, p, p0;
   status = pressure.startTemperature();
   delay(status);
   pressure.getTemperature(t);
   status = pressure.startPressure(3);
   delay(status);
   pressure.getPressure(p, t);
+  p0 = pressure.sealevel(p,altitude);
   int h = dht.getHumidity();
   String packet = "";
   packet += "temp=";
@@ -56,7 +58,7 @@ void loop() {
   packet += "&humidity=";
   packet += h;
   packet += "&pressure=";
-  packet += p, 2;
+  packet += p0, 2;
   packet += "&lat=";
   packet += lat;
   packet += "&long=";
