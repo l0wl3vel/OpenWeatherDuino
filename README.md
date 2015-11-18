@@ -34,6 +34,16 @@ More features will be added in near future, so make sure to check back soon.
   - ESP8266 WIFI Serial Module
   - 3.3v power supply (I used a TI LM3940 at my 5v VCC of my Arduino)
 
+# How to
+- Download the recent Arduino IDE from http://arduino.cc
+- Insert your Openweathermap-credentials in Base64 encoded format and a display name(WIFI:also SSID and passphrase needed)
+- Upload to the Arduino
+- If you like my work buy me a beer
+
+Bitcoin:16wDbCtr6U7Asa2AQEABYUF9bEg6trqLJC
+
+Dogecoin:DNqhnfrfh5gi9jueJbtZjRxAppx91UcRg2
+
 # ToDo
   - Adding more sensors
   - ~~Wifi Module (ESP8266)~~
